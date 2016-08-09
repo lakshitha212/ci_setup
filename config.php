@@ -1,0 +1,1 @@
+<?php $config["database"] = "ci_setup"; $config["host"]= "localhost";$config["username"]= "root"; $config["password"]= "";?>

@@ -35,13 +35,6 @@
  * @since    Version 1.0.0
  * @filesource
  */
-if (!file_exists("config.php") || !include_once "config.php") {
-    header("location: install.php");
-}
-if (!defined('posnicEntry')) {
-    define('posnicEntry', true);
-}
-
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
